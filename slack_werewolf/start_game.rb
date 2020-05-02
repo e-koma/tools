@@ -49,12 +49,12 @@ class WereWolfRoleAllocater
   end
 
   def notify_slack(channel, message)
-    notifier = Slack::Notifier.new(
+    @notifier ||= Slack::Notifier.new(
       WEBHOOK_URL,
       icon_emoji: ':werewolf:',
       username: 'GameMaster'
     )
-    notifier.post(channel: channel, text: message)
+    @notifier.post(channel: channel, text: message)
   end
 end
 
