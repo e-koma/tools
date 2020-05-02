@@ -16,13 +16,11 @@ class WereWolfRoleAllocater
   def allocate
     roles = generate_role_list
 
-    allocated_role_list = ''
-    @players.each do |player|
+    @players.each do |player_name, slack_id|
       role = roles.delete_at(rand(roles.length))
-      allocated_role_list += "#{player}: #{role}\n"
-      notify_slack("@#{player}", generate_role_message(role))
+      puts "#{player_name}: #{role}\n"
+      notify_slack("@#{slack_id}", generate_role_message(role))
     end
-    print allocated_role_list
   end
 
   private

@@ -1,13 +1,15 @@
 players:
-  - yuto.komai
+  yuto.komai: XXX
+  playerA: YYY
+  playerB: ZZZ
 allocation:
-  市民: 1
+  市民: 2
   予言者(占い師): 0
   霊媒師: 0
   騎士(ボディーガード): 0
   独裁者: 0
   パン屋: 0
-  人狼: 0
+  人狼: 1
   人狼の子供: 0
   裏切り者(狂人): 0
   妖狐: 0
