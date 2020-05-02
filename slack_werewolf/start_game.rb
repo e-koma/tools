@@ -18,7 +18,7 @@ class WereWolfRoleAllocater
 
     allocated_role_list = ''
     @players.each do |player|
-      role = roles.delete_at(rand(roles.count))
+      role = roles.delete_at(rand(roles.length))
       allocated_role_list += "#{player}: #{role}\n"
       notify_slack("@#{player}", generate_role_message(role))
     end
@@ -28,7 +28,7 @@ class WereWolfRoleAllocater
   private
 
   def validate(players)
-    return if players.count == @yaml['allocation'].values.sum
+    return if players.length == @yaml['allocation'].values.sum
 
     puts('Error: playerとallocationの人数が違います')
     abort
