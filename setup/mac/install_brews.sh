@@ -158,7 +158,7 @@ FORMULAE_LIBS='
   koekeishiya/formulae/skhd
 '
 
-CASK_LIBS='chromedriver java sequel-ace'
+CASK_LIBS='chromedriver docker sequel-ace'
 
 for lib in $(echo "$FORMULAE_LIBS"); do
   echo "************"
