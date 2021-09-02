@@ -158,7 +158,27 @@ FORMULAE_LIBS='
   koekeishiya/formulae/skhd
 '
 
-CASK_LIBS='chromedriver docker sequel-ace'
+# TODO: google-chrome, iterm2 追加
+CASK_LIBS='
+  alfred
+  atom
+  blender
+  chromedriver
+  clipy
+  discord
+  docker
+  dropbox
+  jetbrains-toolbox
+  kindle
+  mi
+  obs
+  p4v
+  sequel-ace
+  skitch
+  skype
+  sublime-text
+  visual-studio-code
+'
 
 for lib in $(echo "$FORMULAE_LIBS"); do
   echo "************"
@@ -173,3 +193,8 @@ for lib in $(echo "$CASK_LIBS"); do
   echo "************"
   brew install --cask "$lib"
 done
+
+# Pasword入力が求められるアプリ
+brew install --cask zoom
+brew install --cask onedrive
+brew install --cask google-japanese-ime
