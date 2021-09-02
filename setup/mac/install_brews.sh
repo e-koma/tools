@@ -10,6 +10,7 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 FORMULAE_LIBS='
   adns
   aom
+  asdf
   autoconf
   automake
   bdw-gc
