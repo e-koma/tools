@@ -182,6 +182,7 @@ CASK_LIBS='
   skitch
   skype
   sublime-text
+  unity-hub
   visual-studio-code
 '
 
