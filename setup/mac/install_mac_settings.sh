@@ -9,4 +9,12 @@ defaults write -g com.apple.mouse.scaling 1.5
 # 隠しファイル表示
 defaults write com.apple.finder AppleShowAllFiles YES
 
+# IPv6 OFF
+sudo networksetup -setv6off Wi-Fi
+
+# XCode
 sudo xcode-select --install
+sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
+sudo xcodebuild -runFirstLaunch
+
+sudo gem install cocoapods
