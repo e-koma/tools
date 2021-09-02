@@ -158,7 +158,7 @@ FORMULAE_LIBS='
   zstd
 '
 
-CASK_LIBS='chromedriver java'
+CASK_LIBS='chromedriver java sequel-ace'
 
 for lib in "$FORMULAE_LIBS"; do
   echo "************"
@@ -171,5 +171,5 @@ for lib in "$CASK_LIBS"; do
   echo "************"
   echo "install $lib"
   echo "************"
-  brew cask install "$lib"
+  brew install --cask "$lib"
 done
