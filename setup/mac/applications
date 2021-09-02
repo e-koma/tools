@@ -1,20 +1,19 @@
 # Application Settings
-Google Chrome -> ブックマーク同期
-iTerm2 -> Preference -> Profiles -> Command -> Login Shell -> /bin/bash
-JetBrains Toolbox
-  -> 各IDE install
-  -> 最新バージョンのみを残すを有効
-  -> 各IDEで同期を有効にする
-Unity Hub -> 最新LTS versionをinstall
-Docker起動 -> docker / docker-composeが使えるようになる
-Google 日本語入力 -> キーボード -> 入力ソース変更
-Dropbox -> 部分同期
+- Google Chrome -> ブックマーク同期
+- JetBrains Toolbox
+  - 各IDE install
+  - 最新バージョンのみを残すを有効
+  - 各IDEで同期を有効にする
+- Unity Hub -> 最新LTS versionをinstall
+- Docker起動 -> docker / docker-composeが使えるようになる
+- Google 日本語入力 -> キーボード -> 入力ソース変更
+- Dropbox -> 部分同期
 
 # Manual install
-Forticlient -> office document参照
-Logi Capture
+- Forticlient -> office document参照
+- Logi Capture
 
 # App Store経由
-GIPHY CAPTURE
-GarageBand
-Line
+- GIPHY CAPTURE
+- GarageBand
+- Line
