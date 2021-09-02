@@ -20,6 +20,7 @@ function install_lang () {
   echo " $env_command versions "
   echo "****************"
   "$env_command" versions
+  source ~/.bash_profile
 }
 
 function check_version () {
