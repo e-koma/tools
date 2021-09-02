@@ -58,8 +58,6 @@ FORMULAE_LIBS='
   jemalloc
   jpeg
   jq
-  kpt
-  kube-prompt
   libassuan
   libcroco
   libde265
@@ -96,7 +94,6 @@ FORMULAE_LIBS='
   libxext
   libxml2
   libxrender
-  openjpeg
   libyaml
   little-cms2
   lzo
@@ -118,6 +115,7 @@ FORMULAE_LIBS='
   open-mpi
   openexr
   openjdk
+  openjpeg
   openslide
   orc
   p11-kit
@@ -154,8 +152,10 @@ FORMULAE_LIBS='
   xmlto
   xorgproto
   xz
-  yabai
   zstd
+  c-bata/kube-prompt/kube-prompt
+  koekeishiya/formulae/yabai
+  koekeishiya/formulae/skhd
 '
 
 CASK_LIBS='chromedriver java sequel-ace'
