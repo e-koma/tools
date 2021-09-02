@@ -119,6 +119,7 @@ FORMULAE_LIBS='
   openjdk
   openjpeg
   openslide
+  openssl
   orc
   p11-kit
   pango
