@@ -5,6 +5,7 @@ PYTHON39_VERSION=3.9.7
 PYTHON38_VERSION=3.8.9
 PYTHON37_VERSION=3.7.11
 GO_VERSION=1.16.7
+NODE_VERSION=16.8.0
 TF1_VERSION=1.0.5
 TF0_VERSION=0.14.5
 
@@ -49,6 +50,10 @@ install_lang goenv "$GO_VERSION"
 check_version go
 export GOENV_DISABLE_GOPATH=1
 go env GOPATH
+
+# Node
+install_lang nodenv "$NODE_VERSION"
+check_version node
 
 # Terraform
 tfenv install "$TF0_VERSION"
