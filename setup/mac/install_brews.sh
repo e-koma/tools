@@ -160,14 +160,14 @@ FORMULAE_LIBS='
 
 CASK_LIBS='chromedriver java sequel-ace'
 
-for lib in "$FORMULAE_LIBS"; do
+for lib in $(echo "$FORMULAE_LIBS"); do
   echo "************"
   echo "install $lib"
   echo "************"
   brew install "$lib"
 done
 
-for lib in "$CASK_LIBS"; do
+for lib in $(echo "$CASK_LIBS"); do
   echo "************"
   echo "install $lib"
   echo "************"
