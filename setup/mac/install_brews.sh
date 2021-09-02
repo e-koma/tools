@@ -16,6 +16,7 @@ FORMULAE_LIBS='
   c-ares
   cairo
   cfitsio
+  cfn-lint
   cocoapods
   coreutils
   direnv
@@ -41,7 +42,6 @@ FORMULAE_LIBS='
   gnupg
   gnutls
   gobject-introspection
-  goenv
   graphite2
   guile
   hadolint
@@ -107,6 +107,7 @@ FORMULAE_LIBS='
   nettle
   nghttp2
   nodebrew
+  nodenv
   npth
   nspr
   nss
@@ -153,6 +154,7 @@ FORMULAE_LIBS='
   xorgproto
   xz
   zstd
+  aws/tap/copilot-cli
   c-bata/kube-prompt/kube-prompt
   koekeishiya/formulae/yabai
   koekeishiya/formulae/skhd
@@ -193,6 +195,9 @@ for lib in $(echo "$CASK_LIBS"); do
   echo "************"
   brew install --cask "$lib"
 done
+
+# brewのgoenvは古いのでgitからinstall
+git clone https://github.com/syndbg/goenv.git ~/.goenv
 
 # Pasword入力が求められるアプリ
 brew install --cask zoom
