@@ -62,6 +62,12 @@ tfenv install "$TF1_VERSION"
 tfenv use "$TF0_VERSION"
 tfenv list
 
+# Erlang / Elixir
+asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
+asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
+asdf install
+asdf current
+
 # ここから先、パスワードが求められる
 # aws-cli
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
