@@ -1,0 +1,9 @@
+## 新規PC時作業
+- .ssh移行
+- dotfiles移行
+- spotlightの検索範囲を減らす
+
+## source codes
+- git clone
+- git secrets --install
+- Unity Assetsなど移行
