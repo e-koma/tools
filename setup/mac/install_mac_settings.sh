@@ -18,3 +18,9 @@ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -runFirstLaunch
 
 sudo gem install cocoapods
+
+# TODO:
+# - よく使う項目にホームを追加 (Finder -> 移動　-> /User -> ホームディレクトリをドロップ)
+# - Finderで.ファイルを表示するように (Finder -> 設定 -> 詳細 -> すべてのファイル名拡張子を表示)
+# - キーボード -> ユーザ辞書 ->スマート引用符をOFF
+# - システム環境設定 -> ユーザとグループ -> 鍵マーククリック & ユーザの詳細オプション -> ログインシェルをbashに変更
