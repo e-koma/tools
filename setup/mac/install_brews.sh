@@ -206,4 +206,5 @@ git clone https://github.com/syndbg/goenv.git ~/.goenv
 # Pasword入力が求められるアプリ
 brew install --cask zoom
 brew install --cask onedrive
+brew install --cask google-drive-file-stream
 brew install --cask google-japanese-ime
