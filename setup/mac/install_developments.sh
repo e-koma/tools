@@ -68,6 +68,8 @@ asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
 asdf install
 asdf current
 
+# TODO: Flutter
+
 # ここから先、パスワードが求められる
 # aws-cli
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
