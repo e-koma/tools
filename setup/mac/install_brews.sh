@@ -172,6 +172,7 @@ CASK_LIBS='
   discord
   docker
   dropbox
+  flutter
   google-cloud-sdk
   jetbrains-toolbox
   kindle
