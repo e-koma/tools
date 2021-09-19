@@ -13,7 +13,7 @@ defaults write com.apple.finder AppleShowAllFiles YES
 sudo networksetup -setv6off Wi-Fi
 
 # XCode
-sudo xcode-select --install
+# sudo xcode-select --install (AppStore経由でinstallする)
 sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 sudo xcodebuild -runFirstLaunch
 

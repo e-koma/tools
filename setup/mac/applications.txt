@@ -1,7 +1,7 @@
 # Application Settings
 - Google Chrome -> ブックマーク同期
 - JetBrains Toolbox
-  - 各IDE install
+  - 各IDE install (GoLand/PyCharm/RubyMine/Android Studio/IntelliJ/Rider)
   - 最新バージョンのみを残すを有効
   - 各IDEで同期を有効にする
 - Unity Hub -> 最新LTS versionをinstall
@@ -10,6 +10,7 @@
 - Dropbox -> 部分同期
 
 # Manual install
+- Xcode (AppStore)
 - Forticlient -> office document参照
 - Logi Capture
 
