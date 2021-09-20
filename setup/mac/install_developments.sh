@@ -68,8 +68,6 @@ asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
 asdf install
 asdf current
 
-# TODO: Flutter
-
 # ここから先、パスワードが求められる
 # aws-cli
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
@@ -81,3 +79,6 @@ curl "https://s3.amazonaws.com/session-manager-downloads/plugin/latest/mac/sessi
 unzip sessionmanager-bundle.zip
 sudo ./sessionmanager-bundle/install -i /usr/local/sessionmanagerplugin -b /usr/local/bin/session-manager-plugin
 rm "sessionmanager-bundle.zip"
+
+# Cocoapods
+sudo gem install cocoapods
