@@ -116,7 +116,6 @@ FORMULAE_LIBS='
   opa
   open-mpi
   openexr
-  openjdk
   openjpeg
   openslide
   openssl
@@ -194,6 +193,10 @@ for lib in $(echo "$FORMULAE_LIBS"); do
   echo "************"
   brew install "$lib"
 done
+
+# for sdkmanager
+brew install "openjdk@8"
+sudo ln -sfn /usr/local/opt/openjdk\@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 for lib in $(echo "$CASK_LIBS"); do
   echo "************"
