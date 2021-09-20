@@ -165,6 +165,7 @@ FORMULAE_LIBS='
 # TODO: google-chrome, iterm2 追加
 CASK_LIBS='
   alfred
+  android-studio
   atom
   blender
   chromedriver
@@ -205,7 +206,7 @@ done
 git clone https://github.com/syndbg/goenv.git ~/.goenv
 
 # Pasword入力が求められるアプリ
-brew install --cask zoom
-brew install --cask onedrive
-brew install --cask google-drive-file-stream
-brew install --cask google-japanese-ime
+sudo brew install --cask zoom
+sudo brew install --cask onedrive
+sudo brew install --cask google-drive-file-stream
+sudo brew install --cask google-japanese-ime

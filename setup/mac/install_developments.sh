@@ -1,5 +1,7 @@
 #!/bin/bash -e
 
+USER_NAME=yuto.komai
+
 RUBY_VERSION=2.7.4
 PYTHON39_VERSION=3.9.7
 PYTHON38_VERSION=3.8.9
@@ -82,3 +84,7 @@ rm "sessionmanager-bundle.zip"
 
 # Cocoapods
 sudo gem install cocoapods
+
+# 同意を求められる
+# Flutter
+flutter doctor --android-licenses

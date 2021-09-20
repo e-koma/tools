@@ -1,7 +1,7 @@
 # Application Settings
 - Google Chrome -> ブックマーク同期
 - JetBrains Toolbox
-  - 各IDE install (GoLand/PyCharm/RubyMine/Android Studio/IntelliJ/Rider)
+  - 各IDE install (GoLand/PyCharm/RubyMine/IntelliJ/Rider)
   - 最新バージョンのみを残すを有効
   - 各IDEで同期を有効にする
 - Unity Hub -> 最新LTS versionをinstall
@@ -21,3 +21,5 @@
 
 # Android Studio
 - Configure (More Actions) -> AVD Manager -> Create Virtual Device -> 作成Deviceを選択してNext -> Download -> Finish
+- SDK Manager -> SDK Tools -> Android SDK Command-line Tools(latest) -> Apply
+  - https://zenn.dev/captain_blue/articles/flutter-android-licenses-classnotfound
