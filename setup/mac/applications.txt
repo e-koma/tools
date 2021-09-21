@@ -11,6 +11,8 @@
 
 # Manual install
 - Xcode (AppStore)
+- Command Line Tools
+  - https://developer.apple.com/download/all/
 - Forticlient -> office document参照
 - Logi Capture
 
