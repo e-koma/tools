@@ -177,6 +177,7 @@ CASK_LIBS='
   jetbrains-toolbox
   kindle
   mi
+  mysqlworkbench
   obs
   p4v
   sequel-ace
