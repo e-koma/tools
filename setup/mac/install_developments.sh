@@ -44,9 +44,10 @@ gem install bundler
 
 # Python
 install_lang pyenv "$PYTHON39_VERSION"
-install_lang pyenv "$PYTHON38_VERSION"
 install_lang pyenv "$PYTHON37_VERSION"
+install_lang pyenv "$PYTHON38_VERSION"
 check_version python
+pip install onelogin-aws-cli
 
 # Go
 install_lang goenv "$GO_VERSION"
