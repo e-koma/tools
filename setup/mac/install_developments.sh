@@ -40,7 +40,7 @@ function check_version () {
 # Ruby
 install_lang rbenv "$RUBY_VERSION"
 check_version ruby
-gem install bundler
+gem install bundler:1.16.3
 
 # Python
 install_lang pyenv "$PYTHON39_VERSION"
