@@ -1,4 +1,5 @@
 #!/bin/bash -e
+
 # PC移行時
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
@@ -212,5 +213,4 @@ git clone https://github.com/syndbg/goenv.git ~/.goenv
 # Pasword入力が求められるアプリ
 sudo brew install --cask zoom
 sudo brew install --cask onedrive
-sudo brew install --cask google-drive-file-stream
 sudo brew install --cask google-japanese-ime
