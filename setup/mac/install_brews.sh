@@ -60,6 +60,7 @@ FORMULAE_LIBS='
   jemalloc
   jpeg
   jq
+  k1LoW/tap/tbls
   libassuan
   libcroco
   libde265
