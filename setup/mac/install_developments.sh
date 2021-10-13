@@ -66,6 +66,8 @@ tfenv use "$TF0_VERSION"
 tfenv list
 
 # Erlang / Elixir
+git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.1
+source ~/.bash_profile
 asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
 asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
 asdf install
