@@ -73,6 +73,10 @@ asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
 asdf install
 asdf current
 
+# 選択を求められる
+# Rust/Cargo
+curl https://sh.rustup.rs -sSf | sh
+
 # ここから先、パスワードが求められる
 # aws-cli
 curl "https://awscli.amazonaws.com/AWSCLIV2.pkg" -o "AWSCLIV2.pkg"
