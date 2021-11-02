@@ -76,6 +76,8 @@ asdf current
 # 選択を求められる
 # Rust/Cargo
 curl https://sh.rustup.rs -sSf | sh
+. "$HOME/.cargo/env"
+cargo install typos-cli
 
 # ここから先、パスワードが求められる
 # aws-cli
