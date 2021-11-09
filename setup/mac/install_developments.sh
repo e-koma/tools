@@ -58,6 +58,7 @@ go env GOPATH
 # Node
 install_lang nodenv "$NODE_VERSION"
 check_version node
+npm install --global yarn
 
 # Terraform
 tfenv install "$TF0_VERSION"
