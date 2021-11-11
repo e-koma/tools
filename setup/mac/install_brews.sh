@@ -120,6 +120,7 @@ FORMULAE_LIBS='
   openjpeg
   openslide
   openssl
+  openssl@1.1
   orc
   p11-kit
   pango
