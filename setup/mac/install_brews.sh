@@ -104,7 +104,7 @@ FORMULAE_LIBS='
   mozjpeg
   mpdecimal
   mpfr
-  mysql
+  mysql@5.7
   ncurses
   nettle
   nghttp2
