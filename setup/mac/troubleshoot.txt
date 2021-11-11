@@ -1,0 +1,7 @@
+### Ruby
+- gem install mysql2
+  - https://github.com/brianmario/mysql2/issues/1005
+  - https://stackoverflow.com/questions/68034657/unable-to-install-mysql2-gem-on-bigsur
+```
+bundle config --local build.mysql2 "--with-ldflags=-Lv--with-cppflags=-I/usr/local/opt/openssl@1.1/include --with-mysql-dir=/usr/local/opt/mysql@5.7 --with-mysql-lib=/usr/local/opt/mysql@5.7/lib --with-mysql-config=/usr/local/opt/mysql@5.7/bin/mysql_config --with-mysql-rpath=/usr/local/opt/mysql@5.7/lib"
+```
