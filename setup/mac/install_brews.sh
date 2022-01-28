@@ -141,7 +141,7 @@ FORMULAE_LIBS='
   shared-mime-info
   shellcheck
   sqlite
-  sshpass
+  hudochenkov/sshpass/sshpass
   szip
   tfenv
   the_silver_searcher
