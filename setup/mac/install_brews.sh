@@ -50,6 +50,7 @@ FORMULAE_LIBS='
   hdf5
   helm
   hwloc
+  http-server
   icu4c
   ilmbase
   imagemagick
