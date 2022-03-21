@@ -26,6 +26,7 @@ FORMULAE_LIBS='
   fftw
   flow-cli
   fontconfig
+  fop
   freetype
   fribidi
   gcc
@@ -44,6 +45,7 @@ FORMULAE_LIBS='
   gnutls
   gobject-introspection
   graphite2
+  gtk+3
   guile
   hadolint
   harfbuzz
@@ -85,6 +87,7 @@ FORMULAE_LIBS='
   librsvg
   libsodium
   libspng
+  libssh
   libtasn1
   libtiff
   libtool
@@ -97,11 +100,13 @@ FORMULAE_LIBS='
   libxext
   libxml2
   libxrender
+  libxslt
   libyaml
   little-cms2
   lzo
   m4
   memcached
+  mesa
   mozjpeg
   mpdecimal
   mpfr
