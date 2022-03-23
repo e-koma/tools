@@ -44,6 +44,7 @@ FORMULAE_LIBS='
   gnupg
   gnutls
   gobject-introspection
+  golangci-lint
   graphite2
   gtk+3
   guile
