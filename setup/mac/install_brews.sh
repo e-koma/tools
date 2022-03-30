@@ -153,6 +153,7 @@ FORMULAE_LIBS='
   sqlite
   hudochenkov/sshpass/sshpass
   szip
+  telnet
   tfenv
   the_silver_searcher
   tig
