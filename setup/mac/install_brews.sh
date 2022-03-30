@@ -8,6 +8,8 @@ brew upgrade
 brew update
 export HOMEBREW_NO_AUTO_UPDATE=1
 
+brew tap grpc/grpc
+
 FORMULAE_LIBS='
   adns
   aom
@@ -46,6 +48,7 @@ FORMULAE_LIBS='
   gobject-introspection
   golangci-lint
   graphite2
+  grpc
   gtk+3
   guile
   hadolint
@@ -204,6 +207,8 @@ for lib in $(echo "$FORMULAE_LIBS"); do
   echo "************"
   brew install "$lib"
 done
+
+
 
 # for sdkmanager
 brew install "openjdk@8"
