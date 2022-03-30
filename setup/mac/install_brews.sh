@@ -107,6 +107,7 @@ FORMULAE_LIBS='
   libxslt
   libyaml
   little-cms2
+  lua
   lzo
   m4
   memcached
