@@ -1,9 +1,15 @@
 # Application Settings
 - Google Chrome -> ブックマーク同期
+  - Extension
+    - Keepa/DeepL/1Password/OneTab/Endpoint Verification/Tab Resize/Vue.js/Evernote Clippper/
 - JetBrains Toolbox
   - 各IDE install (GoLand/PyCharm/RubyMine/IntelliJ/Rider)
   - 最新バージョンのみを残すを有効
   - 各IDEで同期を有効にする
+  - Plugins
+    - WebStorm: LivePlugin/Vue.js
+    - RubyMine: Elixir
+    - IntelliJ: Groovy
 - Unity Hub -> 最新LTS versionをinstall
 - Docker起動 -> docker / docker-composeが使えるようになる
 - Google 日本語入力 -> キーボード -> 入力ソース変更
