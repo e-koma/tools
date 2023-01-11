@@ -201,6 +201,7 @@ CASK_LIBS='
   sublime-text
   unity-hub
   visual-studio-code
+  1password
 '
 
 for lib in $(echo "$FORMULAE_LIBS"); do
