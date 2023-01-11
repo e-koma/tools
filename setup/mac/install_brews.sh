@@ -230,3 +230,5 @@ git clone https://github.com/syndbg/goenv.git ~/.goenv
 sudo brew install --cask zoom
 sudo brew install --cask onedrive
 sudo brew install --cask google-japanese-ime
+sudo brew install --cask 1password/tap/1password-cli
+
