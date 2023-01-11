@@ -149,6 +149,7 @@ FORMULAE_LIBS='
   readline
   redis
   ruby-build
+  saml2aws
   shared-mime-info
   shellcheck
   sqlite
