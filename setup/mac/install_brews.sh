@@ -199,6 +199,7 @@ CASK_LIBS='
   sequel-ace
   skitch
   skype
+  snowflake-snowsql
   sublime-text
   unity-hub
   visual-studio-code
