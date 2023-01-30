@@ -92,6 +92,11 @@ unzip sessionmanager-bundle.zip
 sudo ./sessionmanager-bundle/install -i /usr/local/sessionmanagerplugin -b /usr/local/bin/session-manager-plugin
 rm "sessionmanager-bundle.zip"
 
+# gcloud
+https://cloud.google.com/sdk/docs/install
+
+gcloud components install gke-gcloud-auth-plugin
+
 # Cocoapods
 sudo gem install cocoapods
 
