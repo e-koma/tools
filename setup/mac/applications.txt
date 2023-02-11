@@ -35,3 +35,6 @@
 - Configure (More Actions) -> AVD Manager -> Create Virtual Device -> 作成Deviceを選択してNext -> Download -> Finish
 - SDK Manager -> SDK Tools -> Android SDK Command-line Tools(latest) -> Apply
   - https://zenn.dev/captain_blue/articles/flutter-android-licenses-classnotfound
+
+# ログイン項目
+- Alfred, Clipy, Karabiner, Docker, VPN
