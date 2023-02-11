@@ -230,6 +230,7 @@ done
 git clone https://github.com/syndbg/goenv.git ~/.goenv
 
 # Pasword入力が求められるアプリ
+sudo brew install --cask karabiner-elements
 sudo brew install --cask zoom
 sudo brew install --cask onedrive
 sudo brew install --cask google-japanese-ime

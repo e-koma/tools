@@ -15,6 +15,7 @@
 - Google 日本語入力 -> キーボード -> 入力ソース変更
 - Dropbox -> 部分同期
 - iTerm2 -> Preferences -> Profiles -> Terminalタブ -> Notification -> Silence bellをチェック
+- Karabiner 設定
 
 # Manual install
 - Xcode (AppStore)
