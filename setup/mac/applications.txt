@@ -38,3 +38,6 @@
 
 # ログイン項目
 - Alfred, Clipy, Karabiner, Docker, VPN
+
+# セキュリティとプライバシー
+- Karabiner
