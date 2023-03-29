@@ -157,6 +157,7 @@ FORMULAE_LIBS='
   szip
   telnet
   tfenv
+  tfsec
   the_silver_searcher
   tig
   tmux
