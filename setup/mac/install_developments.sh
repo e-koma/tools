@@ -97,6 +97,9 @@ https://cloud.google.com/sdk/docs/install
 
 gcloud components install gke-gcloud-auth-plugin
 
+# cloudsql proxy
+https://cloud.google.com/sql/docs/mysql/connect-auth-proxy?hl=ja#mac-m1
+
 # Cocoapods
 sudo gem install cocoapods
 
