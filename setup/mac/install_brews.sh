@@ -176,6 +176,8 @@ FORMULAE_LIBS='
   c-bata/kube-prompt/kube-prompt
   koekeishiya/formulae/yabai
   koekeishiya/formulae/skhd
+  shyiko/kubesec/kubesec
+  shyiko/kubesec/kubesec --with-short-name
 '
 
 # TODO: google-chrome, iterm2 追加
