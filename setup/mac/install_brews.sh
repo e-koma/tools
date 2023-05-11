@@ -141,6 +141,7 @@ FORMULAE_LIBS='
   pixman
   pkg-config
   poppler
+  postgresql
   protobuf
   pyenv
   x265
@@ -176,8 +177,6 @@ FORMULAE_LIBS='
   c-bata/kube-prompt/kube-prompt
   koekeishiya/formulae/yabai
   koekeishiya/formulae/skhd
-  shyiko/kubesec/kubesec
-  shyiko/kubesec/kubesec --with-short-name
 '
 
 # TODO: google-chrome, iterm2 追加

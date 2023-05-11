@@ -106,3 +106,7 @@ sudo gem install cocoapods
 # 同意を求められる
 # Flutter
 flutter doctor --android-licenses
+
+# kubesec
+curl -sSL https://github.com/shyiko/kubesec/releases/download/0.9.2/kubesec-0.9.2-darwin-amd64 \
+  -o kubesec && chmod a+x kubesec && sudo mv kubesec /usr/local/bin/
