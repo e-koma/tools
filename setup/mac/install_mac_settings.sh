@@ -14,6 +14,12 @@ defaults write com.apple.dock orientation -string 'right'
 # 隠しファイル表示
 defaults write com.apple.finder AppleShowAllFiles YES
 
+# すべての拡張子表示
+defaults write NSGlobalDomain AppleShowAllExtensions -bool true
+
+# スマート引用符OFF
+defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
 # IPv6 OFF
 sudo networksetup -setv6off Wi-Fi
 
@@ -26,6 +32,6 @@ sudo xcodebuild -runFirstLaunch
 
 # TODO:
 # - よく使う項目にホームを追加 (Finder -> 移動　-> /User -> ホームディレクトリをドロップ)
-# - Finderで.ファイルを表示するように (Finder -> 設定 -> 詳細 -> すべてのファイル名拡張子を表示)
-# - キーボード -> ユーザ辞書 ->スマート引用符をOFF
 # - システム環境設定 -> ユーザとグループ -> 鍵マーククリック & ユーザの詳細オプション -> ログインシェルをbashに変更
+
+# 設定後、再起動
