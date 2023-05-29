@@ -17,6 +17,8 @@
 - Dropbox -> 部分同期
 - iTerm2 -> Preferences -> Profiles -> Terminalタブ -> Notification -> Silence bellをチェック
 - Karabiner 設定
+  - For Japanese (日本語環境向けの設定) rev 6
+  - コマンドキーを単体で押したときに、英数・かなキーを送信する rev3
 
 # Manual install
 - Xcode (AppStore)

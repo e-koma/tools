@@ -3,6 +3,7 @@
 # PC移行時
 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 brew upgrade
 brew update
@@ -190,12 +191,15 @@ CASK_LIBS='
   dropbox
   flutter
   google-cloud-sdk
+  google-japanese-ime
   iterm2
   jetbrains-toolbox
+  karabiner-elements
   kindle
   mi
   mysqlworkbench
   obs
+  onedrive
   p4v
   sequel-ace
   skitch
@@ -204,7 +208,9 @@ CASK_LIBS='
   sublime-text
   unity-hub
   visual-studio-code
+  zoom
   1password
+  1password/tap/1password-cli
 '
 
 for lib in $(echo "$FORMULAE_LIBS"); do
@@ -215,10 +221,9 @@ for lib in $(echo "$FORMULAE_LIBS"); do
 done
 
 
-
 # for sdkmanager
-brew install "openjdk@8"
-sudo ln -sfn /usr/local/opt/openjdk\@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
+# brew install "openjdk@8"
+# sudo ln -sfn /usr/local/opt/openjdk\@8/libexec/openjdk.jdk /Library/Java/JavaVirtualMachines/openjdk.jdk
 
 for lib in $(echo "$CASK_LIBS"); do
   echo "************"
@@ -229,11 +234,4 @@ done
 
 # brewのgoenvは古いのでgitからinstall
 git clone https://github.com/syndbg/goenv.git ~/.goenv
-
-# Pasword入力が求められるアプリ
-sudo brew install --cask karabiner-elements
-sudo brew install --cask zoom
-sudo brew install --cask onedrive
-sudo brew install --cask google-japanese-ime
-sudo brew install --cask 1password/tap/1password-cli
 

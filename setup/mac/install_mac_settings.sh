@@ -33,5 +33,6 @@ sudo xcodebuild -runFirstLaunch
 # TODO:
 # - よく使う項目にホームを追加 (Finder -> 移動　-> /User -> ホームディレクトリをドロップ)
 # - システム環境設定 -> ユーザとグループ -> 鍵マーククリック & ユーザの詳細オプション -> ログインシェルをbashに変更
+# - CapsLock -> Control (default KeyboardとKarabiner Keyboardの両方必要)
 
 # 設定後、再起動
