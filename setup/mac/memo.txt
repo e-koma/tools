@@ -10,3 +10,7 @@
 - git clone
 - git secrets --install
 - Unity Assetsなど移行
+
+## memo
+参考にできそう
+https://github.com/paulmillr/dotfiles/blob/master/etc/macos-settings.sh
