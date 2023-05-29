@@ -232,6 +232,10 @@ for lib in $(echo "$CASK_LIBS"); do
   brew install --cask "$lib"
 done
 
+# Google IME 有効化
+- システム環境設定 -> キーボード -> 入力ソース -> 編集からGoogle日本語入力(ひらがな)を追加
+- 既存の日本語を削除
+
 # brewのgoenvは古いのでgitからinstall
 git clone https://github.com/syndbg/goenv.git ~/.goenv
 
