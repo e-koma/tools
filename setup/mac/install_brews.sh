@@ -182,8 +182,6 @@ FORMULAE_LIBS='
 # TODO: google-chrome,追加
 CASK_LIBS='
   alfred
-  android-studio
-  atom
   blender
   chromedriver
   clipy
