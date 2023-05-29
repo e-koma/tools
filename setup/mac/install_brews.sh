@@ -179,7 +179,7 @@ FORMULAE_LIBS='
   koekeishiya/formulae/skhd
 '
 
-# TODO: google-chrome, iterm2 追加
+# TODO: google-chrome,追加
 CASK_LIBS='
   alfred
   android-studio
@@ -192,6 +192,7 @@ CASK_LIBS='
   dropbox
   flutter
   google-cloud-sdk
+  iterm2
   jetbrains-toolbox
   kindle
   mi
