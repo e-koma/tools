@@ -3,12 +3,13 @@
 - Macのパスワード変更
 - AppStoreからXCode install
 
-# mac performance
+# Speed
 defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
 defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
 defaults write -g com.apple.trackpad.scaling 7.0
 defaults write -g com.apple.mouse.scaling 1.5
-defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+
+# Dock位置
 defaults write com.apple.dock orientation -string 'right'
 
 # 隠しファイル表示
@@ -19,6 +20,12 @@ defaults write NSGlobalDomain AppleShowAllExtensions -bool true
 
 # スマート引用符OFF
 defaults write NSGlobalDomain NSAutomaticDashSubstitutionEnabled -bool false
+
+# タップでクリック
+defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
+
+# ナチュラルなスクロール
+defaults write -g com.apple.swipescrolldirection -bool false
 
 # IPv6 OFF
 sudo networksetup -setv6off Wi-Fi
