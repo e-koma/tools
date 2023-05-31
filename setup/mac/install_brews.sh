@@ -173,6 +173,7 @@ FORMULAE_LIBS='
   xmlto
   xorgproto
   xz
+  yq
   zstd
   aws/tap/copilot-cli
   c-bata/kube-prompt/kube-prompt
