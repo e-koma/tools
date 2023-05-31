@@ -30,6 +30,9 @@ defaults write -g com.apple.swipescrolldirection -bool false
 # IPv6 OFF
 sudo networksetup -setv6off Wi-Fi
 
+# bash
+chsh -s /bin/bash
+
 # XCode
 # sudo xcode-select --install (AppStore経由でinstallする)
 sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
