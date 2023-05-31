@@ -14,6 +14,7 @@ brew tap grpc/grpc
 FORMULAE_LIBS='
   adns
   aom
+  asdf
   autoconf
   automake
   bdw-gc
