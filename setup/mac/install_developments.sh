@@ -1,84 +1,61 @@
 #!/bin/bash -e
 
-USER_NAME=yuto.komai
+# asdf plugin list
+# asdf plugin update --all
+# asdf list all python
 
-RUBY_VERSION=2.7.4
-PYTHON39_VERSION=3.9.7
-PYTHON38_VERSION=3.8.9
-PYTHON37_VERSION=3.7.11
-GO_VERSION=1.16.7
-NODE_VERSION=16.8.0
-TF1_VERSION=1.0.5
-TF0_VERSION=0.14.5
+asdf plugin add ruby https://github.com/asdf-vm/asdf-ruby.git
+asdf plugin-add python
+asdf plugin-add golang https://github.com/kennyp/asdf-golang.git
+asdf plugin add nodejs https://github.com/asdf-vm/asdf-nodejs.git
+asdf plugin add erlang https://github.com/asdf-vm/asdf-erlang.git
+asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
+asdf plugin-add flutter
+asdf plugin add tfenv https://github.com/carlduevel/asdf-tfenv.git
+asdf plugin add terraform
+asdf plugin-add rust https://github.com/asdf-community/asdf-rust.git
 
-function install_lang () {
-  local env_command="$1"
-  local version="$2"
-  "$env_command" install "$version"
-  "$env_command" global "$version"
-  "$env_command" rehash
 
-  echo "****************"
-  echo " $env_command versions "
-  echo "****************"
-  "$env_command" versions
-  source ~/.bash_profile
-}
+for v in 3.7.16 3.8.16 3.9.16; do
+  asdf install python "$v"
+  asdf global python "$v"
+  pip install onelogin-aws-cli
+done
 
-function check_version () {
-  local language="$1"
-  echo "****************"
-  echo " $language version "
-  echo "****************"
+asdf install golang 1.20.4
+asdf global golang 1.20.4
 
-  case "$language" in
-    go ) go version ;;
-    * ) "$language" --version ;;
-  esac
-}
+asdf install nodejs 16.20.0
+asdf install nodejs 18.16.0
+asdf install nodejs 20.2.0
+asdf global nodejs 20.2.0
 
-# Ruby
-install_lang rbenv "$RUBY_VERSION"
-check_version ruby
-gem install bundler:1.16.3
+asdf install ruby 2.7.8
+asdf install ruby 3.0.6
+asdf global ruby 2.7.8
+sudo gem install bundler:1.16.3
+# Cocoapods
+sudo gem install cocoapods
 
-# Python
-install_lang pyenv "$PYTHON39_VERSION"
-install_lang pyenv "$PYTHON37_VERSION"
-install_lang pyenv "$PYTHON38_VERSION"
-check_version python
-pip install onelogin-aws-cli
+asdf install rust 1.69.0
+asdf global rust 1.69.0
+cargo install typos-cli
+
+asdf install flutter 3.10.3-stable
+asdf global flutter 3.10.3-stable
+
+asdf install terraform 1.4.6
+asdf global terraform 1.4.6
 
 # Go
-install_lang goenv "$GO_VERSION"
-check_version go
 export GOENV_DISABLE_GOPATH=1
 go env GOPATH
 
 # Node
-install_lang nodenv "$NODE_VERSION"
-check_version node
 npm install --global yarn
 
-# Terraform
-tfenv install "$TF0_VERSION"
-tfenv install "$TF1_VERSION"
-tfenv use "$TF0_VERSION"
-tfenv list
-
 # Erlang / Elixir
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.8.1
-source ~/.bash_profile
-asdf plugin-add erlang https://github.com/asdf-vm/asdf-erlang.git
-asdf plugin-add elixir https://github.com/asdf-vm/asdf-elixir.git
-asdf install
-asdf current
 
-# 選択を求められる
-# Rust/Cargo
-curl https://sh.rustup.rs -sSf | sh
-. "$HOME/.cargo/env"
-cargo install typos-cli
 
 # ここから先、パスワードが求められる
 # aws-cli
@@ -100,13 +77,6 @@ gcloud components install gke-gcloud-auth-plugin
 # cloudsql proxy
 https://cloud.google.com/sql/docs/mysql/connect-auth-proxy?hl=ja#mac-m1
 
-# Cocoapods
-sudo gem install cocoapods
-
-# 同意を求められる
-# Flutter
-flutter doctor --android-licenses
-
 # kubesec
-curl -sSL https://github.com/shyiko/kubesec/releases/download/0.9.2/kubesec-0.9.2-darwin-amd64 \
-  -o kubesec && chmod a+x kubesec && sudo mv kubesec /usr/local/bin/
+https://github.com/tk3fftk/kubesec/releases
+sudo mv kubesec /usr/local/bin/

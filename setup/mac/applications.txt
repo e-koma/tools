@@ -39,6 +39,13 @@
 - SDK Manager -> SDK Tools -> Android SDK Command-line Tools(latest) -> Apply
   - https://zenn.dev/captain_blue/articles/flutter-android-licenses-classnotfound
 
+
+# Android Studio設定後
+```
+$ flutter doctor --android-licenses
+
+```
+
 # ログイン項目
 - Alfred, Clipy, Karabiner, Docker, VPN
 
