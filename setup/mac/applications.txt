@@ -14,6 +14,7 @@
 - Unity Hub -> 最新LTS versionをinstall
 - Docker起動 -> docker / docker-composeが使えるようになる
 - Google 日本語入力 -> キーボード -> 入力ソース変更
+  - 辞書のExport / Import
 - Dropbox -> 部分同期
 - iTerm2 -> Preferences -> Profiles -> Terminalタブ -> Notification -> Silence bellをチェック
 - Karabiner 設定
