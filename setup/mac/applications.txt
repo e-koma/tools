@@ -17,6 +17,7 @@
   - 辞書のExport / Import
 - Dropbox -> 部分同期
 - iTerm2 -> Preferences -> Profiles -> Terminalタブ -> Notification -> Silence bellをチェック
+  - Preferences -> Profiles -> Terminal -> ScrollBackBuffer -> 適当に...
 - Karabiner 設定
   - For Japanese (日本語環境向けの設定) rev 6
   - コマンドキーを単体で押したときに、英数・かなキーを送信する rev3
