@@ -4,6 +4,7 @@
   - .bashrc / .bash_profile / .onelogin-aws.config
   - .gitconfig / .gitignore / .git_commit_template
   - .aws / .config (gcloud) / .kube / .vimrc
+  - .saml2aws
 - spotlightの検索範囲を減らす
 
 ## source codes
