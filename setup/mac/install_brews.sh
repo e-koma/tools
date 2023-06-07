@@ -111,6 +111,7 @@ FORMULAE_LIBS='
   little-cms2
   lua
   lzo
+  maven
   m4
   memcached
   mesa
