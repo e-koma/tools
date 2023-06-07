@@ -160,6 +160,7 @@ FORMULAE_LIBS='
   szip
   telnet
   tfenv
+  tflint
   tfsec
   the_silver_searcher
   tig
