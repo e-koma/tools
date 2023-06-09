@@ -204,6 +204,7 @@ CASK_LIBS='
   mysqlworkbench
   obs
   onedrive
+  openvpn-connect
   p4v
   sequel-ace
   skitch
