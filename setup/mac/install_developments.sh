@@ -22,6 +22,9 @@ for v in 3.7.16 3.8.16 3.9.16; do
   pip install onelogin-aws-cli
 done
 
+# Save password to OS keychain
+onelogin-aws-login --reset-password
+
 asdf install golang 1.20.4
 asdf global golang 1.20.4
 
