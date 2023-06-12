@@ -190,6 +190,7 @@ CASK_LIBS='
   blender
   chromedriver
   clipy
+  dcv-viewer
   discord
   docker
   dropbox
