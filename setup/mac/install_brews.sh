@@ -49,6 +49,7 @@ FORMULAE_LIBS='
   gnutls
   gobject-introspection
   golangci-lint
+  gpg-suite
   graphite2
   grpc
   gtk+3
@@ -197,6 +198,7 @@ CASK_LIBS='
   flutter
   google-cloud-sdk
   google-japanese-ime
+  hp-easy-start
   iterm2
   jetbrains-toolbox
   karabiner-elements

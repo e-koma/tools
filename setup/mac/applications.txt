@@ -53,3 +53,6 @@ $ flutter doctor --android-licenses
 
 # セキュリティとプライバシー
 - Karabiner
+
+# その他
+gitの署名コミットが動くか確認
