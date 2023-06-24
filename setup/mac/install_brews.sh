@@ -191,6 +191,7 @@ CASK_LIBS='
   blender
   chromedriver
   clipy
+  cyberduck
   dcv-viewer
   discord
   docker
