@@ -207,6 +207,7 @@ CASK_LIBS='
   mi
   mysqlworkbench
   obs
+  obsidian
   onedrive
   openvpn-connect
   p4v
