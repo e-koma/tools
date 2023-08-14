@@ -12,8 +12,8 @@ softwareupdate --install-rosetta --agree-to-license
 # Speed
 defaults write -g InitialKeyRepeat -int 10 # normal minimum is 15 (225 ms)
 defaults write -g KeyRepeat -int 1 # normal minimum is 2 (30 ms)
-defaults write -g com.apple.trackpad.scaling 7.0
-defaults write -g com.apple.mouse.scaling 1.5
+defaults write -g com.apple.trackpad.scaling 10.0
+defaults write -g com.apple.mouse.scaling 10.0
 
 # Dock位置
 defaults write com.apple.dock orientation -string 'right'
