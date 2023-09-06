@@ -193,6 +193,7 @@ CASK_LIBS='
   clipy
   cyberduck
   dcv-viewer
+  db-browser-for-sqlite
   discord
   docker
   dropbox
