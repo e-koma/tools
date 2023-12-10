@@ -21,6 +21,8 @@
 - Karabiner 設定
   - For Japanese (日本語環境向けの設定) rev 6
   - コマンドキーを単体で押したときに、英数・かなキーを送信する rev3
+- e-Gov電子申請アプリケーション
+  - https://shinsei.e-gov.go.jp/contents/preparation
 
 # Manual install
 - Xcode (AppStore)
