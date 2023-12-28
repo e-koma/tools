@@ -204,6 +204,7 @@ CASK_LIBS='
   hp-easy-start
   iterm2
   jetbrains-toolbox
+  joplin
   karabiner-elements
   kindle
   mi
