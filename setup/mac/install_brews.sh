@@ -161,6 +161,7 @@ FORMULAE_LIBS='
   hudochenkov/sshpass/sshpass
   szip
   telnet
+  terraform-docs
   tfenv
   tflint
   tfmigrate
