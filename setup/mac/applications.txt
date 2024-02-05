@@ -31,9 +31,11 @@
   - install後 /Library/Developer/CommandLineTools/SDKs に古いものが残っていれば削除する
 - Forticlient -> office document参照
 - Logi Capture
+- マイナポータルアプリ
 - 公的個人認証サービス 利用者クライアントソフト
   - https://www.jpki.go.jp/download/mac.html
-
+  - https://chromewebstore.google.com/detail/%E5%88%A9%E7%94%A8%E8%80%85%E3%82%AF%E3%83%A9%E3%82%A4%E3%82%A2%E3%83%B3%E3%83%88%E3%82%BD%E3%83%95%E3%83%88-safarichrome/ohpbmodknobiceihkdlkpkpclhandiea?hl=ja
+- e-Taxソフト(WEB板)
 
 # App Store経由
 - GIPHY CAPTURE
