@@ -31,6 +31,9 @@
   - install後 /Library/Developer/CommandLineTools/SDKs に古いものが残っていれば削除する
 - Forticlient -> office document参照
 - Logi Capture
+- 公的個人認証サービス 利用者クライアントソフト
+  - https://www.jpki.go.jp/download/mac.html
+
 
 # App Store経由
 - GIPHY CAPTURE
