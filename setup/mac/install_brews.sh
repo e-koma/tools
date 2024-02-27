@@ -220,6 +220,7 @@ CASK_LIBS='
   skype
   snowflake-snowsql
   sublime-text
+  typora
   unity-hub
   visual-studio-code
   zoom
