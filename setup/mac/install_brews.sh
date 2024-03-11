@@ -12,6 +12,7 @@ export HOMEBREW_NO_AUTO_UPDATE=1
 brew tap grpc/grpc
 
 FORMULAE_LIBS='
+  act
   adns
   aom
   asdf
