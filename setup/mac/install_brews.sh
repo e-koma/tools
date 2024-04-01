@@ -180,6 +180,7 @@ FORMULAE_LIBS='
   xmlto
   xorgproto
   xz
+  yamllint
   yq
   zstd
   aws/tap/copilot-cli
