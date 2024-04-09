@@ -33,6 +33,9 @@ defaults write com.apple.AppleMultitouchTrackpad Clicking -bool true
 # ナチュラルなスクロール
 defaults write -g com.apple.swipescrolldirection -bool false
 
+# DS_Storeを作らせない
+defaults write com.apple.desktopservices DSDontWriteNetworkStores True
+
 # IPv6 OFF
 sudo networksetup -setv6off Wi-Fi
 
