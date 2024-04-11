@@ -140,6 +140,7 @@ FORMULAE_LIBS='
   orc
   p11-kit
   pango
+  parallel
   pcre
   pcre2
   pinentry
