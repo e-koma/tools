@@ -46,6 +46,7 @@ FORMULAE_LIBS='
   glib
   gmp
   gnu-getopt
+  gnu-sed
   gnupg
   gnutls
   gobject-introspection
