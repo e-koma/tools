@@ -212,6 +212,7 @@ CASK_LIBS='
   joplin
   karabiner-elements
   kindle
+  logi-options-plus
   mi
   mysqlworkbench
   obs
