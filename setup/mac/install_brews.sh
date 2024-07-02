@@ -130,6 +130,7 @@ FORMULAE_LIBS='
   npth
   nspr
   nss
+  ollama
   oniguruma
   opa
   open-mpi
@@ -217,6 +218,7 @@ CASK_LIBS='
   mysqlworkbench
   obs
   obsidian
+  ollama
   onedrive
   openvpn-connect
   p4v
