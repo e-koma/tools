@@ -149,6 +149,7 @@ FORMULAE_LIBS='
   pixman
   pkg-config
   poppler
+  portaudio
   postgresql
   protobuf
   pyenv
