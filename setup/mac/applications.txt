@@ -42,6 +42,7 @@
 - GarageBand
 - Line
 - Magnet
+- Whisper Transcription
 
 # Android Studio
 - Configure (More Actions) -> AVD Manager -> Create Virtual Device -> 作成Deviceを選択してNext -> Download -> Finish
