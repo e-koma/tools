@@ -198,6 +198,7 @@ CASK_LIBS='
   alfred
   blender
   chromedriver
+  chrome-remote-desktop-host
   clipy
   cyberduck
   dcv-viewer
