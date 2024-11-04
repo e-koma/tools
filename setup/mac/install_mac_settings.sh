@@ -46,6 +46,8 @@ sudo xcode-select --switch /Applications/Xcode.app/Contents/Developer
 # return/agreeなどを求められる
 sudo xcodebuild -runFirstLaunch
 
+sudo xcodebuild -license
+
 # TODO:
 # - よく使う項目にホームを追加 (Finder -> 移動　-> /User -> ホームディレクトリをドロップ)
 # - システム環境設定 -> ユーザとグループ -> 鍵マーククリック & ユーザの詳細オプション -> ログインシェルをbashに変更
