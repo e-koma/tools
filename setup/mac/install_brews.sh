@@ -233,6 +233,7 @@ CASK_LIBS='
   typora
   unity-hub
   visual-studio-code
+  wezterm
   zoom
   1password
   1password/tap/1password-cli
