@@ -38,6 +38,7 @@ FORMULAE_LIBS='
   gdbm
   gdk-pixbuf
   gettext
+  gh
   ghostscript
   giflib
   git
