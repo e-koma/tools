@@ -166,6 +166,7 @@ FORMULAE_LIBS='
   sqlite
   hudochenkov/sshpass/sshpass
   szip
+  tailscale
   telnet
   terraform-docs
   tfenv
