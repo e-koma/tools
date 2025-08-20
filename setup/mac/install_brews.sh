@@ -180,6 +180,7 @@ FORMULAE_LIBS='
   unbound
   unixodbc
   utf8proc
+  uv
   vips
   webp
   wget
