@@ -20,6 +20,7 @@ for v in 3.7.16 3.8.16 3.9.16; do
   asdf install python "$v"
   asdf global python "$v"
   pip install onelogin-aws-cli
+  pip install whisperlivekit
 done
 
 # Save password to OS keychain
