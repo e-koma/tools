@@ -220,6 +220,7 @@ CASK_LIBS='
   joplin
   karabiner-elements
   kindle
+  kiro
   logi-options-plus
   mi
   mysqlworkbench
