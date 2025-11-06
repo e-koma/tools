@@ -15,6 +15,7 @@ FORMULAE_LIBS='
   act
   adns
   aom
+  aquaproj/aqua/aqua
   asdf
   autoconf
   automake
