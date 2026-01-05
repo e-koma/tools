@@ -195,6 +195,7 @@ FORMULAE_LIBS='
   c-bata/kube-prompt/kube-prompt
   koekeishiya/formulae/yabai
   koekeishiya/formulae/skhd
+  1password-cli
 '
 
 # TODO: google-chrome,追加
