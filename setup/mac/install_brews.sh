@@ -26,6 +26,7 @@ FORMULAE_LIBS='
   cfn-lint
   cocoapods
   coreutils
+  crane
   direnv
   docbook
   docbook-xsl
