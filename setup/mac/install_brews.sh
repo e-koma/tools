@@ -166,6 +166,7 @@ FORMULAE_LIBS='
   saml2aws
   shared-mime-info
   shellcheck
+  skopeo
   sqlite
   hudochenkov/sshpass/sshpass
   szip
