@@ -30,6 +30,7 @@ FORMULAE_LIBS='
   direnv
   docbook
   docbook-xsl
+  dprint
   fftw
   flow-cli
   fontconfig
