@@ -1,5 +1,8 @@
 #!/bin/bash -e
 
+yarn config set registry https://npm.flatt.tech/ --global
+npm config set registry https://npm.flatt.tech/
+
 # asdf plugin list
 # asdf plugin update --all
 # asdf list all python
