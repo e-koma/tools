@@ -1,7 +1,9 @@
 #!/bin/bash -e
 
+# Takumi Guard
 yarn config set registry https://npm.flatt.tech/ --global
 npm config set registry https://npm.flatt.tech/
+bundle config set --global mirror.https://rubygems.org https://rubygems.flatt.tech/
 
 # asdf plugin list
 # asdf plugin update --all
