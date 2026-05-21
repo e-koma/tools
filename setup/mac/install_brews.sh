@@ -219,6 +219,7 @@ CASK_LIBS='
   flutter
   google-cloud-sdk
   google-japanese-ime
+  ghostty
   hp-easy-start
   iterm2
   jetbrains-toolbox
