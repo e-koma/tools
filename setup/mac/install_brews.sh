@@ -211,9 +211,9 @@ CASK_LIBS='
   clipy
   cursor
   cyberduck
-  dcv-viewer
   db-browser-for-sqlite
-  devin-desktop@next
+  dcv-viewer
+  devin-desktop
   discord
   docker
   dropbox
