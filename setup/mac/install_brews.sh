@@ -213,6 +213,7 @@ CASK_LIBS='
   cyberduck
   dcv-viewer
   db-browser-for-sqlite
+  devin-desktop@next
   discord
   docker
   dropbox
