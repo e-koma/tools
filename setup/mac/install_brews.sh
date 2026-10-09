@@ -120,6 +120,7 @@ FORMULAE_LIBS='
   lzo
   maven
   m4
+  mise
   memcached
   mesa
   mozjpeg
@@ -237,6 +238,7 @@ CASK_LIBS='
   onedrive
   openvpn-connect
   p4v
+  raycast
   sequel-ace
   skitch
   skype
