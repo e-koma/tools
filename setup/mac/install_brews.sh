@@ -210,6 +210,7 @@ CASK_LIBS='
   chrome-remote-desktop-host
   claude
   clipy
+  codex
   cursor
   cyberduck
   db-browser-for-sqlite

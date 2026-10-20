@@ -5,6 +5,15 @@ yarn config set registry https://npm.flatt.tech/ --global
 npm config set registry https://npm.flatt.tech/
 bundle config set --global mirror.https://rubygems.org https://rubygems.flatt.tech/
 
+# Rosetta
+softwareupdate --install-rosetta --agree-to-license
+
+# mise python
+mise ls-remote python
+mise install python@3.14.8
+mise use python@3.14.8
+mise global python@3.14.8
+
 # asdf plugin list
 # asdf plugin update --all
 # asdf list all python
