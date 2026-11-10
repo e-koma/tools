@@ -36,6 +36,9 @@ defaults write -g com.apple.swipescrolldirection -bool false
 # DS_Storeを作らせない
 defaults write com.apple.desktopservices DSDontWriteNetworkStores True
 
+# 「アプリケーションを終了するときにウインドウを閉じる」をオフ（＝終了時のウインドウを保持し、再起動時に復元する）
+defaults write NSGlobalDomain NSQuitAlwaysKeepsWindows -bool true
+
 # IPv6 OFF
 sudo networksetup -setv6off Wi-Fi
 
